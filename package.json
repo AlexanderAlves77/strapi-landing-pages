@@ -1,0 +1,30 @@
+{
+  "name": "strapi-landing-pages",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.3.7",
+    "@strapi/plugin-users-permissions": "4.3.7",
+    "@strapi/provider-upload-cloudinary": "^4.3.8",
+    "@strapi/strapi": "4.3.7",
+    "pg": "8.6.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "17a7e519-b038-41fe-b3d4-744c99319b5b"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
